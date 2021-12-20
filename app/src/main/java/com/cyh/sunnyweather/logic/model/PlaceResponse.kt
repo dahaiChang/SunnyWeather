@@ -27,8 +27,8 @@ data class Place(
 )
 
 data class Location(
-    @SerializedName("lat")
-    val lat: Double,
     @SerializedName("lng")
-    val lng: Double
+    val lng: String,
+    @SerializedName("lat")
+    val lat: String
 )
